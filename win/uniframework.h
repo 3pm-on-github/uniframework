@@ -4,11 +4,13 @@
 #pragma once
 #define SDL_MAIN_HANDLED
 #include <SDL2/SDL.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 
 typedef struct {
     SDL_Window* window;
     SDL_Renderer* renderer;
+    TTF_Font* font;
     int running;
 } U_Context;
 
@@ -24,8 +26,9 @@ void U_ClearScreen(U_Context* ctx);
 void U_PresentScreen(U_Context* ctx);
 void U_DrawRect(U_Context* ctx, int x, int y, int w, int h, U_RGBA color);
 void U_DrawPixel(U_Context* ctx, int x, int y, U_RGBA color);
+void U_DrawText(U_Context* ctx, int x, int y, const char* text, U_RGBA color);
+void U_SetFont(U_Context* ctx, const char* font_path, int font_size);
 void U_Exit(U_Context* ctx);
-void U_Shutdown(U_Context* ctx);
 void U_Delay(unsigned int ms);
 
 #endif
