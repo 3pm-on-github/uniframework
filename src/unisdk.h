@@ -1,5 +1,5 @@
-#ifndef UNIFRAMEWORK_H
-#define UNIFRAMEWORK_H
+#ifndef UNISDK_H
+#define UNISDK_H
 
 #pragma once
 #define SDL_MAIN_HANDLED

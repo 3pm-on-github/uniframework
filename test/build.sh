@@ -12,7 +12,7 @@ if ! command -v gcc &>/dev/null; then
   fi
 fi
 
-gcc test.c ../src/uniframework.c \
+gcc test.c ../src/unisdk.c \
   -I/mingw64/include/SDL2 \
   -L/mingw64/lib \
   -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf \

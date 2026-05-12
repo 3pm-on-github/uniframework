@@ -1,4 +1,4 @@
-#include "../src/uniframework.h"
+#include "../src/unisdk.h"
 
 U_RGBA red = {255, 0, 0, 255};
 U_RGBA green = {0, 255, 0, 255};
@@ -29,7 +29,7 @@ void DrawTextTest(U_Context* ctx) {
 
 int main() {
     U_Context ctx;
-    U_BeginScreen(&ctx, "UniFramework Test", 1280, 720);
+    U_BeginScreen(&ctx, "UniSDK Test", 1280, 720);
     U_ClearScreen(&ctx);
     U_SetFont(&ctx, "assets/defaultFont.otf", 24);
     
