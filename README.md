@@ -1,3 +1,18 @@
-# UniFramework
-UniFramework is a cross-platform framework for building applications with a unified codebase.<br>
-It currently supports Windows.
+<div align="center">
+<h1>UniSDK</h1>
+UniSDK is a framework that makes coding across multiple systems at once insanely easy.
+<br><br><br>
+</div>
+<div align="center">
+  <details>
+  <summary><strong>Supported Devices</strong></summary>
+  
+  | Device | Status | Performance |
+  |--------|--------|--------|
+  | Windows | Active Development | Great |
+  | Linux | Beginning Development | Unknown |
+  | Nintendo 3DS | Active Development | Unknown |
+  | Nintendo Wii | Beginning Development | Unknown |
+  | Nintendo Wii U | Beginning Development | Unknown |
+  </details>
+</div>
